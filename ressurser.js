@@ -106,6 +106,7 @@ var knapp2 = document.getElementById("html-knapp2");
 const citrus = resources.slice(0);
 console.log(citrus);
 
+
 // const maptest = resources.map((categoryz) => {
 //     return htmlKnapp.innerHTML = categoryz.category;
 // })
