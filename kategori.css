@@ -23,6 +23,10 @@ h1 {
 
 }
 
+a {
+    color: turquoise;
+}
+
 article {
     width: 100%;
     width: 700px;
