@@ -10,13 +10,16 @@ h1 {
     width: 100%;
     width: 700px;
     height: 300px;
-    padding: 3rem 0.5rem;
+    padding: 3rem 1.5rem;
     height: auto;
     border-color: grey;
     border-width: 1px;
     border-style: solid;
     color: grey;
     font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
 
 }
 
@@ -32,32 +35,11 @@ article {
     border-style: solid;
     color: grey;
     font-family: sans-serif;
-    border-top: .5rem solid turquoise;
+    border-top: .4rem solid turquoise;
 }
 
 .lorem-ipsum {
     width: 80%;
-}
-
-
-.kategori-knapp {
-    width: 100%;
-    max-width: 120px;
-    height: 40px;
-    margin-right: 10px;
-    background-color: whitesmoke;
-    border: grey;
-    border-width: 1px;
-    border-style: solid;
-    border-bottom: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: .5rem 5px;
-    color: grey;
-    font-family: 'Rubik', sans-serif;
-    display: inline-block;
-    text-transform: uppercase;
 }
 
 #html-knapp {
@@ -78,6 +60,10 @@ article {
     font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    padding-top: 1rem;
+
+
 }
 #html-knapp:visited{
 background-color: turquoise;
@@ -101,6 +87,10 @@ background-color: turquoise;
     font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    padding-top: 1rem;
+
+
 }
 
 #html-knapp3 {
@@ -121,6 +111,10 @@ background-color: turquoise;
     font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    padding-top: 1rem;
+
+
 }
 
 #html-knapp4 {
@@ -137,17 +131,20 @@ background-color: turquoise;
     text-align: center;
     font-size: 1.3rem;
     padding: .5rem 5px;
+    padding-top: 1rem;
     color: grey;
     font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-transform: uppercase;
+    padding-bottom: 0.8rem;
+
 }
 
 #html-knapp5 {
     width: 100%;
     max-width: 120px;
     height: auto;
-    text-align: center;
+    text-align:center;
     margin-right: 10px;
     background-color: whitesmoke;
     border: grey;
@@ -156,8 +153,9 @@ background-color: turquoise;
     border-bottom: none;
     text-decoration: none;
     font-size: 1.3rem;
-    padding: .5rem 5px;
-    padding-bottom: 1.5rem;
+    padding: .5rem 0.3rem;
+    padding-bottom: 1.6rem;
+    padding-top: 1rem;
     color: grey;
     font-family: 'Rubik', sans-serif;
     display: inline-block;
