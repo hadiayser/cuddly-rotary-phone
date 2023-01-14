@@ -18,50 +18,45 @@ const resources = [
         ]
     },
 ]
-    let menuHTML = document.getElementById("ulTxt2");
+    let ul = document.getElementById("ul");
 
-    const li = document.createElement("li");
+    let h2 = document.getElementById("header_to");
 
-    var overskrift2 = document.getElementById("overskrift2");
+    let para = document.createElement("p");
 
-    const para = document.createElement("p");
+    let paragraph = document.getElementById("paragraph");
 
-    let parap2 = document.getElementById("lorem-ipsum2");
-
-    const maptest1 = resources.map((categoryz) => {
-        
+    const map_en = resources.map((categoryz) => {
         return [categoryz.category];
     });
 
-    let katJs = maptest1;
+    let katJs = map_en;
 
-    const kat2overskrift = overskrift2.innerHTML = katJs;
+    const kat2Overskrift = h2.innerHTML = katJs;
 
-    const test7 = overskrift2.innerHTML = katJs;
-
-    const maptest2 = resources.map((categoryz) => {
+    const map_to = resources.map((categoryz) => {
         return [categoryz.text];
     });
 
-    let htmltxt2 = maptest2;
+    let articleTxt = map_to;
 
-    var txt2 = parap2.innerHTML = htmltxt2;
+    var txt2 = paragraph.innerHTML = articleTxt;
 
-    const maptest3 = resources.map((categoryz) => {
+    const map_tre = resources.map((categoryz) => {
 
         categoryz.sources.map((item) => {
 
-            var paragraftest = document.createElement("li");
+            const li = document.createElement("li");
 
-            var ultest = document.createElement("a");
+            let create_a = document.createElement("a");
 
-            ultest.innerHTML = item.title;
+            create_a.innerHTML = item.title;
 
-            ultest.href = item.url;
+            create_a.href = item.url;
 
-            paragraftest.insertAdjacentElement("beforeend", ultest);
+            li.insertAdjacentElement("beforeend", create_a);
 
-            menuHTML.appendChild(paragraftest);
+            ul.appendChild(li);
 
         })
     });

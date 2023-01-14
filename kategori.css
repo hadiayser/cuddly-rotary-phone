@@ -1,167 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
 
-:root {
-    --maxwidth: 1200px;
-    --rootsize: 20px;
+    :root {
+        --maxwidth: 1200px;
+        --rootsize: 20px;
+    }
 
-}
+    h1 {
+        width: 100%;
+        width: 700px;
+        height: 300px;
+        padding: 3rem 0.5rem;
+        height: auto;
+        border-color: grey;
+        border-width: 1px;
+        border-style: solid;
+        color: grey;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
 
-h1 {
-    width: 100%;
-    width: 700px;
-    height: 300px;
-    padding: 3rem 1.5rem;
-    height: auto;
-    border-color: grey;
-    border-width: 1px;
-    border-style: solid;
-    color: grey;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5rem;
+    a {
+        color: turquoise;
+    }
+    
 
+    article {
+        width: 100%;
+        width: 700px;
+        height: 300px;
+        padding-bottom: 15rem;
+        padding-left: 1rem;
+        height: auto;
+        border-color: grey;
+        border-width: 1px;
+        border-style: solid;
+        color: grey;
+        font-family: sans-serif;
+        border-top: .4rem solid turquoise;
+    }
 
-}
+    #htmlBtn {
+        width: 100%;
+        max-width: 120px;
+        height: 40px;
+        margin-right: 10px;
+        background-color: whitesmoke;
+        border: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-bottom: none;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3rem;
+        padding: .6rem 5px;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        display: inline-block;
+        text-transform: uppercase;
+        padding-bottom: 0.8rem;
+        padding-top: 1rem;
+    }
 
-a {
-    color: turquoise;
-}
+    #htmlBtn:visited{
+    background-color: turquoise;
+    }
 
-article {
-    width: 100%;
-    width: 700px;
-    height: 300px;
-    padding-bottom: 15rem;
-    padding-left: 1rem;
-    height: auto;
-    border-color: grey;
-    border-width: 1px;
-    border-style: solid;
-    color: grey;
-    font-family: sans-serif;
-    border-top: .4rem solid turquoise;
-}
+    #cssBtn {
+        width: 100%;
+        max-width: 120px;
+        height: 40px;
+        margin-right: 10px;
+        background-color: whitesmoke;
+        border: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-bottom: none;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3rem;
+        padding: .5rem 5px;
+        color: grey;
+        font-family: 'Rubik', sans-serif;
+        display: inline-block;
+        text-transform: uppercase;
+        padding-bottom: 0.8rem;
+        padding-top: 1rem;
+    }
 
-.lorem-ipsum {
-    width: 80%;
-}
+    #jsBtn {
+        width: 100%;
+        max-width: 120px;
+        height: 40px;
+        margin-right: 10px;
+        background-color: whitesmoke;
+        border: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-bottom: none;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3rem;
+        padding: .5rem 5px;
+        color: grey;
+        font-family: 'Rubik', sans-serif;
+        display: inline-block;
+        text-transform: uppercase;
+        padding-bottom: 0.8rem;
+        padding-top: 1rem;
+    }
 
-#html-knapp {
-    width: 100%;
-    max-width: 120px;
-    height: 40px;
-    margin-right: 10px;
-    background-color: whitesmoke;
-    border: grey;
-    border-width: 1px;
-    border-style: solid;
-    border-bottom: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: .6rem 5px;
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    display: inline-block;
-    text-transform: uppercase;
-    padding-bottom: 0.8rem;
-    padding-top: 1rem;
+    #reactBtn {
+        width: 100%;
+        max-width: 120px;
+        height: 40px;
+        margin-right: 10px;
+        background-color: whitesmoke;
+        border: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-bottom: none;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3rem;
+        padding: .5rem 5px;
+        padding-top: 1rem;
+        color: grey;
+        font-family: 'Rubik', sans-serif;
+        display: inline-block;
+        text-transform: uppercase;
+        padding-bottom: 0.8rem;
+    }
 
-
-}
-#html-knapp:visited{
-background-color: turquoise;
-}
-
-#html-knapp2 {
-    width: 100%;
-    max-width: 120px;
-    height: 40px;
-    margin-right: 10px;
-    background-color: whitesmoke;
-    border: grey;
-    border-width: 1px;
-    border-style: solid;
-    border-bottom: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: .5rem 5px;
-    color: grey;
-    font-family: 'Rubik', sans-serif;
-    display: inline-block;
-    text-transform: uppercase;
-    padding-bottom: 0.8rem;
-    padding-top: 1rem;
-
-
-}
-
-#html-knapp3 {
-    width: 100%;
-    max-width: 120px;
-    height: 40px;
-    margin-right: 10px;
-    background-color: whitesmoke;
-    border: grey;
-    border-width: 1px;
-    border-style: solid;
-    border-bottom: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: .5rem 5px;
-    color: grey;
-    font-family: 'Rubik', sans-serif;
-    display: inline-block;
-    text-transform: uppercase;
-    padding-bottom: 0.8rem;
-    padding-top: 1rem;
-
-
-}
-
-#html-knapp4 {
-    width: 100%;
-    max-width: 120px;
-    height: 40px;
-    margin-right: 10px;
-    background-color: whitesmoke;
-    border: grey;
-    border-width: 1px;
-    border-style: solid;
-    border-bottom: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.3rem;
-    padding: .5rem 5px;
-    padding-top: 1rem;
-    color: grey;
-    font-family: 'Rubik', sans-serif;
-    display: inline-block;
-    text-transform: uppercase;
-    padding-bottom: 0.8rem;
-
-}
-
-#html-knapp5 {
-    width: 100%;
-    max-width: 120px;
-    height: auto;
-    text-align:center;
-    margin-right: 10px;
-    background-color: whitesmoke;
-    border: grey;
-    border-width: 1px;
-    border-style: solid;
-    border-bottom: none;
-    text-decoration: none;
-    font-size: 1.3rem;
-    padding: .5rem 0.3rem;
-    padding-bottom: 1.6rem;
-    padding-top: 1rem;
-    color: grey;
-    font-family: 'Rubik', sans-serif;
-    display: inline-block;
-    text-transform: uppercase;
-}
+    #sanityBtn {
+        width: 100%;
+        max-width: 120px;
+        height: auto;
+        text-align:center;
+        margin-right: 10px;
+        background-color: whitesmoke;
+        border: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-bottom: none;
+        text-decoration: none;
+        font-size: 1.3rem;
+        padding: .5rem 0.3rem;
+        padding-bottom: 1.6rem;
+        padding-top: 1rem;
+        color: grey;
+        font-family: 'Rubik', sans-serif;
+        display: inline-block;
+        text-transform: uppercase;
+    }
