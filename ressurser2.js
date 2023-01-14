@@ -1,24 +1,29 @@
 const resources = [
     {
-        category: "HTML",
-        text: "HTML står for HyperText Markup Language, og er et strukturspråk som brukes for å lage strukturer til nettside- og applikasjonsgrensesnitt.",
+        category: "CSS",
+        text: "CSS står for Cascading StyleSheets, og brukes for å sette stilregler på HTML-elementer.",
         sources: [
             {
                 title: "W3Schools",
-                url: "https://www.w3schools.com/html/"
+                url: "https://www.w3schools.com/css/"
             },
             {
-                title: "HTML Living standard",
-                url: "https://html.spec.whatwg.org/multipage/"
+                title: "W3C HTML & CSS Standards",
+                url: "https://www.w3.org/standards/webdesign/htmlcss.html"
             },
             {
-                title: "HTML.com Tutorials",
-                url: "https://html.com/"
+                title: "W3C CSS Validator",
+                url: "https://jigsaw.w3.org/css-validator/"
+            },
+            {
+                title: "CSS Tricks",
+                url: "https://css-tricks.com/"
             },
         ]
     },
 ]
-    let menuHTML = document.getElementById("ulTxt2");
+
+let menuHTML = document.getElementById("ulTxt2");
 
     const li = document.createElement("li");
 
@@ -65,3 +70,9 @@ const resources = [
 
         })
     });
+
+
+
+
+
+

@@ -1,24 +1,25 @@
 const resources = [
     {
-        category: "HTML",
-        text: "HTML står for HyperText Markup Language, og er et strukturspråk som brukes for å lage strukturer til nettside- og applikasjonsgrensesnitt.",
+        category: "Sanity and headless CMS",
+        text: "Sanity er et headless CMS som står for innholdsadministrasjon. Innhold hentes inn i applikasjoner via GROQ-spørringer.",
         sources: [
             {
-                title: "W3Schools",
-                url: "https://www.w3schools.com/html/"
+                title: "Sanity documentation",
+                url: "https://www.sanity.io/docs"
             },
             {
-                title: "HTML Living standard",
-                url: "https://html.spec.whatwg.org/multipage/"
+                title: "OnCrawl: a beginners guide to headless CMS",
+                url: "https://www.oncrawl.com/technical-seo/beginners-guide-headless-cms/"
             },
             {
-                title: "HTML.com Tutorials",
-                url: "https://html.com/"
+                title: "Section.io: Getting started with Sanity CMS",
+                url: "https://www.section.io/engineering-education/getting-started-with-sanity-cms/"
             },
         ]
     },
 ]
-    let menuHTML = document.getElementById("ulTxt2");
+
+let menuHTML = document.getElementById("ulTxt2");
 
     const li = document.createElement("li");
 
@@ -65,3 +66,8 @@ const resources = [
 
         })
     });
+
+
+
+
+

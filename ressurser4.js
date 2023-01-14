@@ -1,24 +1,25 @@
 const resources = [
     {
-        category: "HTML",
-        text: "HTML står for HyperText Markup Language, og er et strukturspråk som brukes for å lage strukturer til nettside- og applikasjonsgrensesnitt.",
+        category: "React",
+        text: "React er et rammeverk bygget i JavaScript. React bruker komponenter og states for å lage en levende frontend.",
         sources: [
             {
+                title: "React documentation",
+                url: "https://reactjs.org/docs/getting-started.html"
+            },
+            {
                 title: "W3Schools",
-                url: "https://www.w3schools.com/html/"
+                url: "https://www.w3schools.com/REACT/DEFAULT.ASP"
             },
             {
-                title: "HTML Living standard",
-                url: "https://html.spec.whatwg.org/multipage/"
-            },
-            {
-                title: "HTML.com Tutorials",
-                url: "https://html.com/"
+                title: "How to read JavaScript Documentation",
+                url: "https://www.youtube.com/watch?v=O3iR-CIufKM"
             },
         ]
     },
 ]
-    let menuHTML = document.getElementById("ulTxt2");
+
+let menuHTML = document.getElementById("ulTxt2");
 
     const li = document.createElement("li");
 

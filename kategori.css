@@ -39,6 +39,7 @@ article {
     width: 80%;
 }
 
+
 .kategori-knapp {
     width: 100%;
     max-width: 120px;
@@ -72,11 +73,14 @@ article {
     text-decoration: none;
     text-align: center;
     font-size: 1.3rem;
-    padding: .5rem 5px;
-    color: grey;
+    padding: .6rem 5px;
+    color: white;
     font-family: 'Rubik', sans-serif;
     display: inline-block;
     text-transform: uppercase;
+}
+#html-knapp:visited{
+background-color: turquoise;
 }
 
 #html-knapp2 {

@@ -1,24 +1,26 @@
 const resources = [
     {
-        category: "HTML",
-        text: "HTML står for HyperText Markup Language, og er et strukturspråk som brukes for å lage strukturer til nettside- og applikasjonsgrensesnitt.",
+        category: "JavaScript",
+        text: "JavaScript er et scriptspråk basert på EcmaScript. JavaScript kjører direkte i nettleseren, og brukes ofte til å manipulere HTML og CSS i webgrensnesnitt.",
         sources: [
             {
                 title: "W3Schools",
-                url: "https://www.w3schools.com/html/"
+                url: "https://www.w3schools.com/js/"
             },
             {
-                title: "HTML Living standard",
-                url: "https://html.spec.whatwg.org/multipage/"
+                title: "MDN Web Docs",
+                url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             },
             {
-                title: "HTML.com Tutorials",
-                url: "https://html.com/"
+                title: "How to read JavaScript Documentation",
+                url: "https://www.youtube.com/watch?v=O3iR-CIufKM"
             },
         ]
     },
+    
 ]
-    let menuHTML = document.getElementById("ulTxt2");
+
+let menuHTML = document.getElementById("ulTxt2");
 
     const li = document.createElement("li");
 
@@ -65,3 +67,4 @@ const resources = [
 
         })
     });
+
