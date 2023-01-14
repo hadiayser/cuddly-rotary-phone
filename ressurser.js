@@ -97,20 +97,70 @@ const resources = [
 
 let menuHTML = document.getElementById("ulTxt");
 const li = document.createElement("li");
-var htmlKnapp = document.getElementById("html-knapp")
+var htmlKnapp = document.getElementById("overskrift1")
 const para = document.createElement("p");
 let parap = document.getElementById("lorem-ipsum");
 var test3 = document.createElement("h1");
 var knapp2 = document.getElementById("html-knapp2");
-
-const citrus = resources.slice(0);
-console.log(citrus);
-
-
-// const maptest = resources.map((categoryz) => {
-//     return htmlKnapp.innerHTML = categoryz.category;
-// })
-// console.log(maptest)
+var knapp3 = document.getElementById("html-knapp3");
+var knapp4 = document.getElementById("html-knapp4");
+var knapp5 = document.getElementById("html-knapp5");
 
 
-// const maptest1 = resources.map(categoryz => ({ value: category }))
+const maptest1 = resources.map((categoryz) => {
+    return [categoryz.category];
+});
+
+let test2 = maptest1.toString()
+
+
+let kathtml = test2.match("HTML");
+let katJs = test2.match("JavaScript");
+let katCss = test2.match("CSS");
+let katReact = test2.match("React");
+let katSanity = test2.match("Sanity and headless CMS");
+
+
+
+const test6 = htmlKnapp.innerHTML = kathtml;
+console.log(test6)
+
+const test7 = knapp2.innerHTML = katJs;
+const test8 = knapp3.innerHTML = katCss;
+const test9 = knapp4.innerHTML = katReact;
+const test10 = knapp5.innerHTML = katSanity;
+
+
+
+const maptest2 = resources.map((categoryz) => {
+    return [categoryz.text];
+})
+console.log(maptest2)
+
+let map2string = maptest2.toString()
+
+let htmltxt = map2string.match("HTML står for HyperText Markup Language, og er et strukturspråk som brukes for å lage strukturer til nettside- og applikasjonsgrensesnitt.");
+console.log(htmltxt)
+
+const txt1 = parap.innerText = htmltxt;
+
+
+const maptest3 = resources.map((categoryz) => {
+    categoryz.sources.map((item) => {
+        var paragraftest = document.createElement("p");
+        var ultest = document.createElement("a");
+        ultest.innerHTML = item.title;
+        ultest.href = item.url;
+        paragraftest.insertAdjacentElement("beforeend", ultest);
+        menuHTML.appendChild(paragraftest);
+
+    })
+
+});
+
+
+
+
+// testest1 = toString();
+// console.log(testest1)
+
