@@ -41,7 +41,7 @@ const resources = [
 
     let articleTxt = map_to;
 
-    var txt2 = paragraph.innerHTML = articleTxt;
+     paragraph.innerHTML = map_to;
 
     const map_tre = resources.map((categoryz) => {
 

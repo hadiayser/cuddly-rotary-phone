@@ -40,6 +40,19 @@
         border-top: .4rem solid turquoise;
     }
 
+    #article1 h2 ~ h2{
+    visibility: hidden;        
+    }
+    #article1 p ~ p{
+        visibility: hidden;        
+        }
+        #article1 p a:nth-child(){
+            visibility:hidden;        
+            }
+            #article1 p a:first-child{
+                visibility:visible;        
+                }
+
     #htmlBtn {
         width: 100%;
         max-width: 120px;
