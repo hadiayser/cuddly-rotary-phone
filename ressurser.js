@@ -148,30 +148,78 @@ const resources = [
     // var txt2 = listetest.innerHTML = map_3[0];
     // var txt3 = listetest2.innerHTML = map_3[1];
 
-    let listhtml = document.getElementById("article1")
+    // let article = document.getElementById("article1");
+    // let nav = document.getElementById("nav");
+    // let title = document.getElementById("title")
     
+    // resources.forEach((i)=> i.sources.forEach((hey)=>{
+    //     if(title.innerHTML == i.category){
+    //         article.innerHTML += "<h2>" + i.category +"</h2>" + "<p>" + i.text + "</p>";
+    //     }
+    //     if(title.innerHTML == i.category){
+    //         article.innerHTML += "<ul><li><a href='" + hey.url + "'>" + hey.title
+    //     }
+    // }))
+
+    // resources.map(resource => {
+    //     let html = '<div class="resource">'+
+    //                 '<h3>'+resource.category+'</h3>'+
+    //                 '<p>'+resource.text+'</p>'+
+    //                 '<ul>';
+    //     resource.sources.map(source => {
+    //         html += '<li><a href="'+source.url+'">'+source.title+'</a></li>';
+    //     });
+    //     html += '</ul></div>';
+    //     document.getElementById("article1").innerHTML += html;
+    // });
+
+//     let html = "";
+// resources.map(resource => {
+//     if (resource.category === "HTML") {
+//         html += '<div class="resource">'+
+//                 '<h3>'+resource.category+'</h3>'+
+//                 '<p>'+resource.text+'</p>'+
+//                 '<ul>';
+//         resource.sources.map(source => {
+//             html += '<li><a href="'+source.url+'">'+source.title+'</a></li>';
+//         });
+//         html += '</ul></div>';
+//     } else {
+//         html += '<div class="resource">'+
+//                 '<h3>'+resource.category+'</h3>'+
+//                 '<p>'+resource.text+'</p>'+
+//                 '<ul>';
+//         resource.sources.map(source => {
+//             html += '<li><a href="'+source.url+'">'+source.title+'</a></li>';
+//         });
+//         html += '</ul></div>';
+//     }
+// });
+// document.getElementById("article1").innerHTML = html;
+// document.getElementById("article2").innerHTML = html;
+// const listhtml = document.getElementById("article1")
+   
     
-    
-        resources.map((pee)=> {
-        var test3 = document.createElement("h2")
-        test3.innerHTML = pee.category;
-        listhtml.appendChild(test3);
-        var test5 = document.createElement("p");
-        test5.innerHTML = pee.text;
-        listhtml.appendChild(test5);
+//         resources.map((pee)=> {
+//         var test3 = document.createElement("h2")
+//         test3.innerHTML = pee.category;
+//         listhtml.appendChild(test3);
+//         var test5 = document.createElement("p");
+//         test5.innerHTML = pee.text;
+//         listhtml.appendChild(test5);
         
-        pee.sources.map((item) =>{
-            var test3 = document.createElement("p");
-            var test4 = document.createElement("a");
-            test4.innerHTML = item.title;
-            test4.href = item.url;
-            test3.insertAdjacentElement("beforeend", test4);
-            listhtml.appendChild(test3);
-        });
-    });
+//         pee.sources.map((item) =>{
+//             var test3 = document.createElement("p");
+//             var test4 = document.createElement("a");
+//             test4.innerHTML = item.title;
+//             test4.href = item.url;
+//             test3.insertAdjacentElement("beforeend", test4);
+//             listhtml.appendChild(test3);
+//         });
+//     });
+    
     
 
-    console.log(listhtml)
 
     // const map_tre = resources.map((categoryz) => {
 
@@ -193,4 +241,23 @@ const resources = [
     // });
 
 
+    const htmlPages = {
+        "HTML": "article1",
+        "CSS": "article2",
+        "JavaScript": "javascript-page",
+        "React": "react-page",
+        "Sanity and headless CMS": "sanity-page"
+    }
+    
+    resources.map(resource => {
+        let html = `<div class="resource">
+                        <h2>${resource.category}</h2>
+                        <p>${resource.text}</p>
+                        <ul>`;
+        resource.sources.map(source => {
+            html += `<li><a href="${source.url}">${source.title}</a></li>`;
+        });
+        html += `</ul></div>`;
+        document.getElementById(htmlPages[resource.category]).innerHTML += html;
+    });
     
