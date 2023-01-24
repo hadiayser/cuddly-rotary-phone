@@ -94,13 +94,13 @@ const resources = [
         ]
     },
 ]
-    let article = document.getElementById("article1");
-    let title = document.querySelector("title");
-    resources.map((item) => {
-        if (title.innerHTML === item.category) {
-            article.innerHTML += `<h2>${item.category}</h2><p>${item.text}</p>`;
-            item.sources.map((thing) => {
-                article.innerHTML += `<li><a href='${thing.url}'>${thing.title}</a></li>`;
+    const article = document.getElementById("article1");
+    const overskrift = document.querySelector("title");
+    resources.map((txt) => {
+        if (overskrift.innerHTML === txt.category) {
+            article.innerHTML += `<h2>${txt.category}</h2><p>${txt.text}</p>`;
+            txt.sources.map((source) => {
+                article.innerHTML += `<li><a href='${source.url}'>${source.title}</a></li>`;
             });
         }
     });

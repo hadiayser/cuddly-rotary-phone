@@ -53,7 +53,7 @@
         border-bottom: none;
         text-decoration: none;
         font-size: 1.3rem;
-        padding: .5rem 0.34rem;
+        padding: .5rem 0.32rem;
         padding-bottom: 1.6rem;
         padding-top: 1rem;
         color: grey;
@@ -61,97 +61,3 @@
         display: inline-block;
         text-transform: uppercase;
     }
-
-    
-
-     /* #navtest:active{
-    background-color: turquoise;
-    } */
-
-    /*#cssBtn {
-        width: 100%;
-        max-width: 120px;
-        height: 40px;
-        margin-right: 10px;
-        background-color: whitesmoke;
-        border: grey;
-        border-width: 1px;
-        border-style: solid;
-        border-bottom: none;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.3rem;
-        padding: .5rem 5px;
-        color: grey;
-        font-family: 'Rubik', sans-serif;
-        display: inline-block;
-        text-transform: uppercase;
-        padding-bottom: 0.8rem;
-        padding-top: 1rem;
-    }
-
-    #jsBtn {
-        width: 100%;
-        max-width: 120px;
-        height: 40px;
-        margin-right: 10px;
-        background-color: whitesmoke;
-        border: grey;
-        border-width: 1px;
-        border-style: solid;
-        border-bottom: none;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.3rem;
-        padding: .5rem 5px;
-        color: grey;
-        font-family: 'Rubik', sans-serif;
-        display: inline-block;
-        text-transform: uppercase;
-        padding-bottom: 0.8rem;
-        padding-top: 1rem;
-    }
-
-    #reactBtn {
-        width: 100%;
-        max-width: 120px;
-        height: 40px;
-        margin-right: 10px;
-        background-color: whitesmoke;
-        border: grey;
-        border-width: 1px;
-        border-style: solid;
-        border-bottom: none;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.3rem;
-        padding: .5rem 5px;
-        padding-top: 1rem;
-        color: grey;
-        font-family: 'Rubik', sans-serif;
-        display: inline-block;
-        text-transform: uppercase;
-        padding-bottom: 0.8rem;
-    }
-
-    #sanityBtn {
-        width: 100%;
-        max-width: 120px;
-        height: auto;
-        text-align:center;
-        margin-right: 10px;
-        background-color: whitesmoke;
-        border: grey;
-        border-width: 1px;
-        border-style: solid;
-        border-bottom: none;
-        text-decoration: none;
-        font-size: 1.3rem;
-        padding: .5rem 0.3rem;
-        padding-bottom: 1.6rem;
-        padding-top: 1rem;
-        color: grey;
-        font-family: 'Rubik', sans-serif;
-        display: inline-block;
-        text-transform: uppercase;
-    } */
