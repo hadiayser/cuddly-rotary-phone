@@ -7,7 +7,7 @@
 
     h1 {
         width: 100%;
-        width: 700px;
+        width: 800px;
         height: 300px;
         padding: 3rem 0.5rem;
         height: auto;
@@ -27,8 +27,8 @@
 
     article {
         width: 100%;
-        width: 700px;
-        height: 300px;
+        width: 800px;
+        height: auto;
         padding-bottom: 15rem;
         padding-left: 1rem;
         height: auto;
@@ -41,10 +41,9 @@
     }
 
     .Btn {
-        width: 100%;
-        max-width: 120px;
+        width: auto;
         height: auto;
-        text-align:center;
+        text-align: center;
         margin-right: 10px;
         background-color: whitesmoke;
         border: grey;
@@ -53,7 +52,7 @@
         border-bottom: none;
         text-decoration: none;
         font-size: 1.3rem;
-        padding: .5rem 0.32rem;
+        padding: .5rem 1.195rem;
         padding-bottom: 1.6rem;
         padding-top: 1rem;
         color: grey;
@@ -65,4 +64,20 @@
     .onSite {
         background-color: turquoise;
         color: white;
+    }
+
+
+    @media screen and (max-width: 800px) and (min-width: 300px){
+        .Btn{
+            width: fit-content;
+            height: auto;
+            padding-right: 4rem;
+
+        }
+        article{
+            width: fit-content;
+        }
+        h1{
+        width: auto;       
+     }
     }
